@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+<body class="container mt-5">
+
+    <h1>Atividade</h1>
+    <h3> Grupo: Claudia, Gleiser e Talis</h3>
+
+    <button onclick="questao01()">Chamar Questão 01</button>
+    <button onclick="questao02()">Chamar Questão 02</button>
+    <button onclick="questao03()">Chamar Questão 03</button>
+   
+    <script> 
+    function questao03(){
+        const nomes = ["João", "José", "Maria", "Seastião", "Antonio"];
+        const nomeCom4letras = nomes.filter(nome => nome.length === 4);
+        return document.write(nomeCom4letras)
+    }
+
+    function questao02()    {
+        let soma = 0;
+        for (let i = 1; i <= 100; i++) {
+        soma += i;
+        }
+        return document.write("Questão 02 A soma dos números de 1 até 100 é: " + soma);
+    }
+
+    function questao01(){
+        for (let i = 1; i<= 10; i++){
+            if(i % 2 !==0){
+            document.write(i+ " - ");
+            }
+        }
+    }
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>

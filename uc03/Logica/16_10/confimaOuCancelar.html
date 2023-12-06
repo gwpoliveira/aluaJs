@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function afirma(msg){
+            var x;
+            var r = confirm(msg);
+            if (r==true){
+                x = 'você precionou OK!';
+            } else{
+                x = 'você precionou Cancelar!';
+            }
+            // document.write(x);
+            alert(x);
+        }
+        afirma("Escolha uma resposta");
+    </script>
+</body>
+</html>

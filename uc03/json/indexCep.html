@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Formulário com consulta a API de CEPs</title>
+        <script src="cep.js" defer></script>
+        <!-- Principal CSS do Bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+            integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <style>
+        .inputClass {
+          width: 100%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          display: inline-block;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+        }
+        div {
+          width: 30%;
+          border-radius: 5px;
+          background-color: #f2f2f2;
+          padding: 20px;
+        }
+        </style>
+    </head>
+    <body>
+      <section class="bg-primary">
+
+        <h1 class="container text-center mt-5 mb-5">Formulário com consulta a API de CEPs</h1>
+        <div class="container">
+          <form action="#">
+            <label>CEP:</label>
+            <input id="cep" class="inputClass" /><br>
+            
+            <label>Rua:</label>
+            <input id="logradouro" class="inputClass" /><br>
+            
+            <label>Bairro:</label>
+            <input id="bairro" class="inputClass" /><br>
+            
+            <label>Cidade:</label>
+            <input id="localidade" class="inputClass" /><br>
+            
+            <label>Estado:</label>
+            <input id="uf" class="inputClass" /><br>
+          </form>
+        </div>
+      </section>
+   
+</html>

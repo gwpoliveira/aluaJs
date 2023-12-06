@@ -1,0 +1,22 @@
+const listaDeCompras = ['ovos', 'leite', 'manteiga'];
+console.log(listaDeCompras.length);
+const novaListaDeCompras = ['ovos', 'leite', 'manteiga', 'chocolate', 'pão'];
+console.log(novaListaDeCompras.length);
+
+var itemRemovido = novaListaDeCompras.pop();
+console.log(novaListaDeCompras);
+console.log(itemRemovido);
+
+var itemRemovido = novaListaDeCompras.pop();
+console.log(novaListaDeCompras);
+console.log(itemRemovido);
+
+var itemRemovido = novaListaDeCompras.shift();
+console.log(itemRemovido);
+
+
+
+
+
+
+
